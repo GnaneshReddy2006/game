@@ -1,0 +1,99 @@
+body{
+    text-align: center;
+    background-color: rgb(239, 213, 180);
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    gap: 2vmin;
+}
+.op{
+    height: 30vmin;
+    width: 30vmin;
+    background-color: rgb(222, 63, 196);
+    border-radius:50rem;
+    border:black solid 1.5px
+}
+#rock{
+    background-color: rgb(29, 31, 28);
+    background-image: url(rock.png);
+    background-size:contain;
+    background-repeat: round ;
+       
+}
+#paper{
+    background-color: rgb(15, 15, 15);
+    background-image: url(paper.png);
+    background-size:contain;
+    background-repeat: round ;
+    
+}
+#scissor{
+    background-color: rgb(16, 16, 15);
+    background-image: url(scissors.png);
+    background-size:contain;
+    background-repeat: round ;
+    
+}
+.op:hover{
+    border: solid 3.75px black
+}
+
+
+.result, .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(223, 243, 4);
+    color: rgb(0, 0, 0);
+    border: solid black 1.75px;
+    font-size: 20px;
+}
+.re{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.btn{
+    font-size: 20px;
+    background-color: rgb(13, 11, 11);
+    color: blanchedalmond; 
+    
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    gap:40px
+}
+#u,#com{
+    font-size: 40px;
+}
+
+.win{
+    background-color: rgb(151, 248, 5);
+    color: black;
+    
+}
+
+.loose{
+    background-color: red;
+    color: white;
+}
+.draw{
+    background-color: aqua;
+    color: black;
+}
